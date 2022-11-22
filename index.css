@@ -1,0 +1,112 @@
+/* Write your code here. */
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+}
+
+.bg-container {
+  background-color: #ffffff;
+  height: 100vh;
+}
+
+@media (min-width: 768px) {
+  .bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.boxes-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .boxes-container {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+  }
+}
+
+.title {
+  color: #0f172a;
+  font-family: "Roboto";
+  font-size: 60px;
+  text-align: center;
+}
+
+.bg-yellow-box {
+  background-color: #fbbf24;
+  color: #ffffff;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: small;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .bg-yellow-box {
+    margin-left: 35px;
+    width: 125px;
+    height: 125px;
+    margin-bottom: 0;
+  }
+}
+
+.bg-blue-box {
+  background-color: #38bdf8;
+  color: #ffffff;
+  width: 160px;
+  height: 160px;
+  font-size: 20px;
+  font-family: "Roboto";
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: small;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .bg-blue-box {
+    margin-left: 35px;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 0;
+  }
+}
+
+.bg-pink-box {
+  background-color: #ec4899;
+  color: #ffffff;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: small;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .bg-pink-box {
+    margin-left: 35px;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 0;
+  }
+}
